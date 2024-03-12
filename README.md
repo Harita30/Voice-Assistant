@@ -5,7 +5,7 @@
 First and foremost, I am grateful for the opportunity to work on a project of this kind. I was absolutely excited at being able to bring together various technical concepts, some of which I have prior hands-on experience with and some I didn’t. I started out strong with research, gathering resources, and laying out an implementation plan. Along the way, I encountered quite a lot of challenges testing both my technical ability and mental determination. But I chose to keep going because the learnings were many and the will to achieve was strong.  My methods and overall choice of tools could possibly be better. I hope to further explore and develop a more optimised solution. Overall, I definitely had a fun time and am looking forward to tackling more such problems. 
  
 ## About
- 
+
 I have used Python to develop this voice assistant. Python is a language I’ve used extensively in the recent past for all of my projects. It's more user-friendly and has a wide variety of libraries that support a whole lot of use cases. 
 The voice assistant displays a thought-provoking question “Will virtual care redefine current healthcare paradigms?”, to which the user might respond with a yes or a no. In case of any other response or the lack of one, the assistant prompts the user to retry. A total of 3 tries are given, after which the execution terminates. The conversation is logged to a file named output.txt, which logs all interactions one after the other if there are multiple. 
  
@@ -22,11 +22,11 @@ The methods I used, and the usage results are outlined in the table below. For m
  
 #### Methods / Packages I tried	How it went?
 
-1. PySimpleGUI - Installer did not execute, and Python crashed   
+- PySimpleGUI - Installer did not execute, and Python crashed   
 
-2. Flask and HTML - Methods to accept audio input into an HTML file- webkitSpeech & getUserMedia()	webkitSpeech- this      is only supported in the Google Chrome browser getUserMedia()- only works in a secure context   
+- Flask and HTML - Methods to accept audio input into an HTML file- webkitSpeech & getUserMedia()	webkitSpeech- this      is only supported in the Google Chrome browser getUserMedia()- only works in a secure context   
 
-3. Pyqt5 & tkinter - Both the packages were similar, but since I was building a simple GUI, I found tkinter to be           sufficient   
+- Pyqt5 & tkinter - Both the packages were similar, but since I was building a simple GUI, I found tkinter to be           sufficient   
 
 **File output**: The voice assistant and user interactions are logged to a file named “output.txt”. A file object is used to open the file in append mode. This enables all subsequent conversations to be logged in one place.   
 
@@ -53,8 +53,8 @@ The methods I used, and the usage results are outlined in the table below. For m
 
 4. **Run the code**:
     
-    1. On a Windows machine to observe the complete working of the voice assistant.</br>
-    2. On a macOS machine, the tkinter package displays an empty screen with just the button.
+    - On a Windows machine to observe the complete working of the voice assistant.</br>
+    - On a macOS machine, the tkinter package displays an empty screen with just the button.
  
 ## Working
 
