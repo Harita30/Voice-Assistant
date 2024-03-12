@@ -1,0 +1,6 @@
+SpeechRecognition==3.10.1
+pyaudio==0.2.14
+pocketsphinx==5.0.3
+urllib3==1.26.6
+tk==0.1.0
+setuptools
